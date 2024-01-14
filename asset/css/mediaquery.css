@@ -1,0 +1,30 @@
+@media only screen and (max-width: 1000px) {
+  footer {
+    flex-direction: column;
+    background-color: #f7eee9;
+  }
+  footer div {
+    margin: 0 auto;
+    padding-top: 3rem;
+  }
+  footer #message {
+    padding-top: 0;
+    text-align: center;
+  }
+
+  #edu_ex{
+    flex-direction: column;
+  }
+  
+#my_skill #skills{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+#about_me_info{
+    flex-direction: column;
+}
+
+}
