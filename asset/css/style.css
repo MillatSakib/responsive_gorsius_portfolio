@@ -4,6 +4,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+body{
+    background-color: #fafafa;
+}
+
 #about_me{
     padding-top: 131px;
     padding-bottom: 131px;
@@ -53,3 +57,50 @@
 .about_me_highlight a:hover {
     text-decoration: underline;
 }
+
+#my_skill{
+    width: 80%;
+    max-width: 1600px;
+    margin: 130px auto;
+}
+
+#my_skill #skills{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.3rem;
+    margin: 3.2rem auto;
+    justify-content: center
+}
+
+.card{
+    background-color: #fff;
+    width: 270px;
+    padding: 30px;
+    
+}
+
+.card h3{
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+.card p{
+    width: 210px;
+}
+
+.header_title{
+    text-align: center;
+    font-size: 2rem
+}
+
+#my_skill .header_title{
+    margin: 2rem;
+}
+
+#my_skill p{
+    width: 80%;
+    max-width: 950px;
+    color: #757575;
+    text-align: center;
+    margin: 0 auto;
+}
+
