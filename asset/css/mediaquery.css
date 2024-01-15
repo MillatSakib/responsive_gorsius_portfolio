@@ -23,8 +23,21 @@
     width: 100%;
     
 }
+#about_me{
+  width: 100%;
+}
 #about_me_info{
     flex-direction: column;
+}
+
+.card{
+  max-width: 70%;
+}
+
+#skills p{
+  margin: 0;
+  padding-left: 0;
+  text-align: left;
 }
 
 }
